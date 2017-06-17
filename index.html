@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/mycss.css">
+    <script src="js/loadXML.js"></script>
+    <script src="js/myscript.js"></script>
+</head>
+<body>
+	<h2>Catch Monsters</h2><br>
+	<div id="bg" style="Display:none"></div>
+	<canvas id="can" width="600" height="600"></canvas>
+	<div class="users" id="userInput">
+		<br><br><br>
+		<font color="pink" face="黑体" size="4">Username:
+		<input type="text" id="username" size="20"/>
+		<input type="button" value="submit" onclick="onSubmit()"/>
+		<p>Player
+		    <img src="images/hero.png" id="player">:<span id="user">Guest</span>
+		</p></font>
+	</div>
+	<div class="users" id="userShow" style="Display:none">
+	    <font face="黑体" size="3" color="#F4A460"><br>排行榜<br>
+	    <img src="images/paa.png"><br>
+	        <div id="userrank"></div>
+	        <img src="images/pab.png">
+	    </font>
+	</div>
+</body>
+</html>

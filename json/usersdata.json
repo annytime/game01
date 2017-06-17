@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "name": "CoCo",
+            "score": 9
+        },
+        {
+            "name": "Sandy",
+            "score": 12
+        },
+        {
+            "name": "叶子",
+            "score": 10
+        },
+        {
+            "name": "Sunny",
+            "score": 0
+        },
+        {
+            "name": "Andy",
+            "score": 6
+        },
+        {
+            "name": "夏天",
+            "score": 24
+        },
+        {
+            "name": "klajs",
+            "score": 0
+        }
+    ]
+}
